@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: auto;
+    background-color: cyan;
+    display: flex;
+    padding: 1%;
+    align-content: space-between;
+    justify-content: center;
+    background-color: black;
+
+}
+.navbar-heading{
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar-heading h1{
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navitem li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    height: 100%;
+    position: relative;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    color: grey;
+    transition: all 0.3s ease 0s;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: auto;
+}
+
+ul{
+    height: auto;
+    
+}
+
+.navitem li a:hover{
+    color: lightgray;
+    border: none;
+   }
+
+
+
+
+@media screen  and (max-width : 720px){
+    .navbar{
+        display: block;
+    }
+    .navitem li {
+        display: block;
+        text-align: center;
+    }
+    .navbar h1{
+        display: none;
+    }
+    
+}

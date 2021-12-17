@@ -1,0 +1,51 @@
+.content{
+    display: flex;
+    height: 90vh;
+}
+body{
+    background-color: darkcyan;
+    height: 100vh;
+}
+
+.about-me-heading{
+    text-align: center;
+    padding: 5px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.my_information h1{
+   text-align: center;
+}
+.my_information p{
+    text-align: center;
+    padding: 15px;
+ }
+img{
+    width: 50%;
+    padding: 25px;
+}
+
+.more_info{
+    display: flex;
+
+}
+
+.labels{
+    padding: 5px;
+}
+
+@media screen and (max-width:720px) {
+    .content{
+        flex-direction: column;
+    }
+    img{
+        width: 90%;
+        align-self: center;
+    }
+}
+

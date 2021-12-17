@@ -1,0 +1,126 @@
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: darkcyan;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    
+}
+
+.contact.content p{
+    font-size: 24px;
+} 
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.container .contactInfo .box{
+    display: flex;
+    position: relative;
+    padding : 20px 0px;
+    
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3{
+    font-weight: 600;
+    color: black;
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: whitesmoke;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color:#333;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.contactForm .inputBox input , .contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100%;
+    background: #00bcd4;
+
+}
+
+
+@media (max-width: 720px)
+{
+    .contact{
+        padding: 50px;
+
+    }
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contactForm{
+        width: 100%;
+    }
+    .contactInfo{
+        width: 100%;
+       
+    }
+
+}

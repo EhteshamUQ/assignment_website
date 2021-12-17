@@ -1,0 +1,40 @@
+.heading{
+    align-items: center;
+}
+.heading h1{
+    text-align: center;
+    padding: 5px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+    margin-left: 40px;
+}
+
+img{
+    border-radius: 5%;
+    width: 90%;
+    height: 90%;
+    border: 2px solid white;  
+    margin: 5px;  
+    
+}
+
+main{
+    background-color: darkcyan;
+
+}
+
+@media screen and (max-width: 720px){
+    .row
+    {
+        flex-direction: column;
+    }
+    img{
+        width: 90%;
+        
+    }
+}

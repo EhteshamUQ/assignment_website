@@ -1,0 +1,12 @@
+body{
+    height: 100vh;
+    background-color: darkcyan;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+    height: 50vh;
+}
